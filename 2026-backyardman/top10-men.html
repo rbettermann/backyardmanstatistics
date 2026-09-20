@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Top 10 Men · BACKYARDMAN Würzburg 2026</title>
+<meta name="description" content="Community-run statistics for BACKYARDMAN, the backyard-format triathlon.">
+<link rel="stylesheet" href="../static/css/site.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html">Backyardman Statistics</a>
+  <nav class="site-nav">
+    <a href="../2026-backyardman/index.html" class="active">2026</a>
+  </nav>
+</header>
+<main>
+<a class="back-link" href="index.html">&larr; Back to 2026 results</a>
+<h1>BACKYARDMAN Würzburg 2026 &middot; Top 10 Men</h1>
+<p class="subtitle">The top 10 men finishers by distance, compared across every metric this event's data covers.</p>
+
+<div class="charts-grid">
+  <div class="chart-card tall">
+  <h3>Total distance</h3>
+  <div class="chart-canvas-wrap"><canvas id="chart-distance"></canvas></div>
+</div>
+
+  <div class="chart-card tall">
+  <h3>Elapsed time</h3>
+  <div class="chart-canvas-wrap"><canvas id="chart-elapsed-time"></canvas></div>
+</div>
+
+  
+  <div class="chart-card tall">
+  <h3>Average time per discipline</h3>
+  <div class="chart-canvas-wrap"><canvas id="chart-discipline-avg"></canvas></div>
+</div>
+
+  <div class="chart-card tall">
+  <h3>Fastest / average / slowest loop</h3>
+  <div class="chart-canvas-wrap"><canvas id="chart-loop-stats"></canvas></div>
+</div>
+
+  <div class="chart-card wide tall">
+  <h3>Loop time, overlaid</h3>
+  <div class="chart-canvas-wrap"><canvas id="chart-loop-time-overlay"></canvas></div>
+</div>
+
+  
+  
+  <div class="chart-card wide tall">
+  <h3>Rest banked, overlaid</h3>
+  <div class="chart-canvas-wrap"><canvas id="chart-rest-overlay"></canvas></div>
+</div>
+
+</div>
+
+<h2>Comparison table</h2>
+<table class="display data-table" data-dt-options='{"searching": false, "paging": false}'>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Name</th>
+      <th>Country</th>
+      <th>Status</th>
+      <th>Loops</th>
+      <th>Distance</th>
+      <th>Elapsed time</th>
+<th>Avg swim</th><th>Avg bike</th><th>Avg run</th>      <th>Fastest loop</th>
+      <th>Avg loop</th>
+      <th>Slowest loop</th>
+<th>Rest banked</th>    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3</td>
+      <td><a href="athletes/8.html">Nicolas Kiesel</a></td>
+      <td>🇩🇪 DE</td>
+      <td>DNF</td>
+      <td>21</td>
+      <td>535.5 km</td>
+      <td>1d 18:00:00</td>
+<td>10:01</td><td>42:46</td><td>36:02</td>      <td>89:37</td>
+      <td>98:33</td>
+      <td>104:56</td>
+<td>07:30:20</td>    </tr>
+    <tr>
+      <td>4</td>
+      <td><a href="athletes/32.html">Manuel Langhans</a></td>
+      <td>🇩🇪 DE</td>
+      <td>DNF</td>
+      <td>20</td>
+      <td>510.0 km</td>
+      <td>1d 16:00:00</td>
+<td>10:19</td><td>41:35</td><td>29:18</td>      <td>79:42</td>
+      <td>88:57</td>
+      <td>113:54</td>
+<td>10:20:49</td>    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="athletes/36.html">Melvin Griese</a></td>
+      <td>🇩🇪 DE</td>
+      <td>DNF</td>
+      <td>20</td>
+      <td>510.0 km</td>
+      <td>1d 16:00:00</td>
+<td>7:50</td><td>41:56</td><td>35:43</td>      <td>85:51</td>
+      <td>94:26</td>
+      <td>101:34</td>
+<td>08:31:02</td>    </tr>
+    <tr>
+      <td>6</td>
+      <td><a href="athletes/49.html">Pierre Feller</a></td>
+      <td>🇱🇺 LU</td>
+      <td>DNF</td>
+      <td>20</td>
+      <td>510.0 km</td>
+      <td>1d 16:00:00</td>
+<td>10:31</td><td>43:12</td><td>30:57</td>      <td>87:38</td>
+      <td>94:53</td>
+      <td>109:35</td>
+<td>08:22:07</td>    </tr>
+    <tr>
+      <td>8</td>
+      <td><a href="athletes/24.html">Vincent Meyer</a></td>
+      <td>🇩🇪 DE</td>
+      <td>DNF</td>
+      <td>20</td>
+      <td>510.0 km</td>
+      <td>1d 16:00:00</td>
+<td>9:51</td><td>46:52</td><td>33:49</td>      <td>86:24</td>
+      <td>100:35</td>
+      <td>109:22</td>
+<td>06:28:06</td>    </tr>
+    <tr>
+      <td>9</td>
+      <td><a href="athletes/26.html">Finn von Dewitz</a></td>
+      <td>🇩🇪 DE</td>
+      <td>DNF</td>
+      <td>17</td>
+      <td>433.5 km</td>
+      <td>1d 10:00:00</td>
+<td>10:37</td><td>44:32</td><td>34:57</td>      <td>92:42</td>
+      <td>98:21</td>
+      <td>108:13</td>
+<td>06:07:48</td>    </tr>
+    <tr>
+      <td>10</td>
+      <td><a href="athletes/46.html">Christian Kulke</a></td>
+      <td>🇩🇪 DE</td>
+      <td>DNF</td>
+      <td>16</td>
+      <td>408.0 km</td>
+      <td>1d 08:00:00</td>
+<td>10:28</td><td>39:38</td><td>29:21</td>      <td>78:32</td>
+      <td>86:24</td>
+      <td>94:40</td>
+<td>08:57:34</td>    </tr>
+    <tr>
+      <td>11</td>
+      <td><a href="athletes/23.html">Manuel Näther</a></td>
+      <td>🇩🇪 DE</td>
+      <td>DNF</td>
+      <td>16</td>
+      <td>408.0 km</td>
+      <td>1d 08:00:00</td>
+<td>10:17</td><td>41:43</td><td>32:49</td>      <td>81:43</td>
+      <td>90:27</td>
+      <td>99:15</td>
+<td>07:52:35</td>    </tr>
+    <tr>
+      <td>13</td>
+      <td><a href="athletes/13.html">Max Reuter</a></td>
+      <td>🇱🇺 LU</td>
+      <td>DNF</td>
+      <td>15</td>
+      <td>382.5 km</td>
+      <td>1d 06:00:00</td>
+<td>9:33</td><td>40:28</td><td>24:33</td>      <td>67:31</td>
+      <td>83:56</td>
+      <td>92:32</td>
+<td>09:00:56</td>    </tr>
+    <tr>
+      <td>14</td>
+      <td><a href="athletes/30.html">David Fohl</a></td>
+      <td>🇩🇪 DE</td>
+      <td>DNF</td>
+      <td>15</td>
+      <td>382.5 km</td>
+      <td>1d 06:00:00</td>
+<td>9:24</td><td>41:14</td><td>29:30</td>      <td>80:06</td>
+      <td>86:13</td>
+      <td>99:34</td>
+<td>08:26:38</td>    </tr>
+  </tbody>
+</table>
+<p class="data-note">* also ran in another year - open their profile for a year-over-year comparison.</p>
+</main>
+<footer>Community-run statistics, not an official race result. Data scraped from public sources.</footer>
+<script>window.SITE_CHARTS = {"chart-discipline-avg": {"data": {"datasets": [{"data": [10.02, 10.31, 7.84, 10.52, 9.85, 10.62, 10.47, 10.29, 9.54, 9.4], "label": "Swim", "seriesRoles": "series-1"}, {"data": [42.77, 41.59, 41.94, 43.2, 46.86, 44.54, 39.63, 41.72, 40.47, 41.23], "label": "Bike", "seriesRoles": "series-2"}, {"data": [36.04, 29.3, 35.72, 30.94, 33.82, 34.95, 29.35, 32.82, 24.56, 29.5], "label": "Run", "seriesRoles": "series-3"}], "labels": ["Nicolas Kiesel", "Manuel Langhans", "Melvin Griese", "Pierre Feller", "Vincent Meyer", "Finn von Dewitz", "Christian Kulke", "Manuel N\u00e4ther", "Max Reuter", "David Fohl"]}, "options": {"indexAxis": "y", "maintainAspectRatio": false, "plugins": {"legend": {"display": true, "position": "bottom"}}, "responsive": true, "scales": {"x": {"beginAtZero": true, "stacked": true, "title": {"display": true, "text": "Average time per loop (min)"}}, "y": {"stacked": true}}}, "type": "bar"}, "chart-distance": {"data": {"datasets": [{"data": [535.5, 510.0, 510.0, 510.0, 510.0, 433.5, 408.0, 408.0, 382.5, 382.5], "seriesRoles": ["series-1", "series-1", "series-1", "series-1", "series-1", "series-1", "series-1", "series-1", "series-1", "series-1"]}], "labels": ["Nicolas Kiesel", "Manuel Langhans", "Melvin Griese", "Pierre Feller", "Vincent Meyer", "Finn von Dewitz", "Christian Kulke", "Manuel N\u00e4ther", "Max Reuter", "David Fohl"]}, "options": {"indexAxis": "y", "maintainAspectRatio": false, "plugins": {"legend": {"display": false}}, "responsive": true, "scales": {"x": {"beginAtZero": true, "title": {"display": true, "text": "Distance (km)"}}}}, "type": "bar"}, "chart-elapsed-time": {"data": {"datasets": [{"data": [42.0, 40.0, 40.0, 40.0, 40.0, 34.0, 32.0, 32.0, 30.0, 30.0], "seriesRoles": ["series-1", "series-1", "series-1", "series-1", "series-1", "series-1", "series-1", "series-1", "series-1", "series-1"]}], "labels": ["Nicolas Kiesel", "Manuel Langhans", "Melvin Griese", "Pierre Feller", "Vincent Meyer", "Finn von Dewitz", "Christian Kulke", "Manuel N\u00e4ther", "Max Reuter", "David Fohl"]}, "options": {"indexAxis": "y", "maintainAspectRatio": false, "plugins": {"legend": {"display": false}}, "responsive": true, "scales": {"x": {"beginAtZero": true, "title": {"display": true, "text": "Elapsed time (h)"}}}}, "type": "bar"}, "chart-loop-stats": {"data": {"datasets": [{"data": [89.62, 79.7, 85.85, 87.63, 86.4, 92.7, 78.53, 81.72, 67.52, 80.1], "label": "Fastest", "seriesRoles": "status-good"}, {"data": [98.55, 88.95, 94.43, 94.88, 100.58, 98.35, 86.4, 90.45, 83.93, 86.22], "label": "Average", "seriesRoles": "series-1"}, {"data": [104.93, 113.9, 101.57, 109.58, 109.37, 108.22, 94.67, 99.25, 92.53, 99.57], "label": "Slowest", "seriesRoles": "status-warning"}], "labels": ["Nicolas Kiesel", "Manuel Langhans", "Melvin Griese", "Pierre Feller", "Vincent Meyer", "Finn von Dewitz", "Christian Kulke", "Manuel N\u00e4ther", "Max Reuter", "David Fohl"]}, "options": {"indexAxis": "y", "maintainAspectRatio": false, "plugins": {"legend": {"display": true, "position": "bottom"}}, "responsive": true, "scales": {"x": {"beginAtZero": true, "title": {"display": true, "text": "Loop time (min)"}}}}, "type": "bar"}, "chart-loop-time-overlay": {"data": {"datasets": [{"data": [92.53, 97.02, 100.48, 98.82, 104.93, 102.2, 101.83, 100.9, 104.4, 96.53, 96.92, 94.83, 97.62, 97.45, 99.02, 89.62, 95.92, 97.78, 99.1, 100.8, 100.8], "label": "Nicolas Kiesel", "pointRadius": 1, "seriesRoles": "series-1", "spanGaps": true}, {"data": [82.43, 83.38, 83.02, 83.02, 93.93, 92.22, 95.32, 87.82, 88.13, 94.42, 84.7, 84.08, 86.13, 79.7, 81.82, 82.57, 94.73, 90.53, 97.15, 113.9, null], "label": "Manuel Langhans", "pointRadius": 1, "seriesRoles": "series-2", "spanGaps": true}, {"data": [85.85, 86.58, 89.38, 89.48, 91.63, 95.05, 92.2, 100.0, 98.62, 97.63, 95.8, 93.23, 92.53, 96.12, 94.32, 98.02, 95.58, 97.55, 101.57, 97.65, null], "label": "Melvin Griese", "pointRadius": 1, "seriesRoles": "series-3", "spanGaps": true}, {"data": [88.08, 89.9, 87.63, 94.62, 96.15, 97.78, 97.1, 95.9, 97.97, 97.12, 96.2, 89.05, 92.28, 88.62, 90.28, 95.5, 97.35, 100.18, 96.45, 109.58, null], "label": "Pierre Feller", "pointRadius": 1, "seriesRoles": "series-4", "spanGaps": true}, {"data": [86.4, 91.2, 95.2, 92.87, 98.53, 99.15, 104.77, 98.8, 105.17, 104.22, 102.23, 98.2, 100.07, 108.97, 99.63, 105.4, 103.02, 106.37, 102.17, 109.37, null], "label": "Vincent Meyer", "pointRadius": 1, "seriesRoles": "series-5", "spanGaps": true}, {"data": [92.7, 97.0, 100.48, 98.8, 92.82, 100.3, 98.03, 99.92, 102.1, 97.05, 99.32, 96.2, 94.95, 95.95, 101.37, 96.82, 108.22, null, null, null, null], "label": "Finn von Dewitz", "pointRadius": 1, "seriesRoles": "series-1", "spanGaps": true}, {"data": [78.53, 79.87, 81.28, 80.8, 83.5, 85.25, 86.6, 91.98, 90.57, 91.15, 87.43, 86.45, 87.27, 87.28, 89.67, 94.67, null, null, null, null, null], "label": "Christian Kulke", "pointRadius": 1, "seriesRoles": "series-2", "spanGaps": true}, {"data": [81.72, 86.07, 87.55, 88.8, 88.33, 91.27, 88.67, 93.0, 97.77, 89.52, 91.62, 92.25, 87.23, 99.25, 87.18, 97.05, null, null, null, null, null], "label": "Manuel N\u00e4ther", "pointRadius": 1, "seriesRoles": "series-3", "spanGaps": true}, {"data": [92.53, 89.88, 81.28, 84.97, 89.07, 88.63, 88.37, 87.0, 89.53, 87.43, 87.48, 74.55, 67.52, 75.28, 75.4, null, null, null, null, null, null], "label": "Max Reuter", "pointRadius": 1, "seriesRoles": "series-4", "spanGaps": true}, {"data": [86.0, 84.87, 83.03, 80.1, 86.67, 91.48, 92.65, 92.87, 99.57, 81.08, 83.03, 80.48, 86.43, 81.85, 83.12, null, null, null, null, null, null], "label": "David Fohl", "pointRadius": 1, "seriesRoles": "series-5", "spanGaps": true}], "labels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]}, "options": {"maintainAspectRatio": false, "plugins": {"legend": {"display": true, "position": "bottom"}}, "responsive": true, "scales": {"x": {"title": {"display": true, "text": "Loop number"}}, "y": {"beginAtZero": true, "title": {"display": true, "text": "Loop time (min)"}}}}, "type": "line"}, "chart-rest-overlay": {"data": {"datasets": [{"data": [27.47, 22.98, 19.52, 21.18, 15.07, 17.8, 18.17, 19.1, 15.6, 23.47, 23.08, 25.17, 22.38, 22.55, 20.98, 30.38, 24.08, 22.22, 20.9, 19.2, 19.2], "label": "Nicolas Kiesel", "pointRadius": 1, "seriesRoles": "series-1", "spanGaps": true}, {"data": [37.57, 36.62, 36.98, 36.98, 26.07, 27.78, 24.68, 32.18, 31.87, 25.58, 35.3, 35.92, 33.87, 40.3, 38.18, 37.43, 25.27, 29.47, 22.85, 6.1, null], "label": "Manuel Langhans", "pointRadius": 1, "seriesRoles": "series-2", "spanGaps": true}, {"data": [34.15, 33.42, 30.62, 30.52, 28.37, 24.95, 27.8, 20.0, 21.38, 22.37, 24.2, 26.77, 27.47, 23.88, 25.68, 21.98, 24.42, 22.45, 18.43, 22.35, null], "label": "Melvin Griese", "pointRadius": 1, "seriesRoles": "series-3", "spanGaps": true}, {"data": [31.92, 30.1, 32.37, 25.38, 23.85, 22.22, 22.9, 24.1, 22.03, 22.88, 23.8, 30.95, 27.72, 31.38, 29.72, 24.5, 22.65, 19.82, 23.55, 10.42, null], "label": "Pierre Feller", "pointRadius": 1, "seriesRoles": "series-4", "spanGaps": true}, {"data": [33.6, 28.8, 24.8, 27.13, 21.47, 20.85, 15.23, 21.2, 14.83, 15.78, 17.77, 21.8, 19.93, 11.03, 20.37, 14.6, 16.98, 13.63, 17.83, 10.63, null], "label": "Vincent Meyer", "pointRadius": 1, "seriesRoles": "series-5", "spanGaps": true}, {"data": [27.3, 23.0, 19.52, 21.2, 27.18, 19.7, 21.97, 20.08, 17.9, 22.95, 20.68, 23.8, 25.05, 24.05, 18.63, 23.18, 11.78, null, null, null, null], "label": "Finn von Dewitz", "pointRadius": 1, "seriesRoles": "series-1", "spanGaps": true}, {"data": [41.47, 40.13, 38.72, 39.2, 36.5, 34.75, 33.4, 28.02, 29.43, 28.85, 32.57, 33.55, 32.73, 32.72, 30.33, 25.33, null, null, null, null, null], "label": "Christian Kulke", "pointRadius": 1, "seriesRoles": "series-2", "spanGaps": true}, {"data": [38.28, 33.93, 32.45, 31.2, 31.67, 28.73, 31.33, 27.0, 22.23, 30.48, 28.38, 27.75, 32.77, 20.75, 32.82, 22.95, null, null, null, null, null], "label": "Manuel N\u00e4ther", "pointRadius": 1, "seriesRoles": "series-3", "spanGaps": true}, {"data": [27.47, 30.12, 38.72, 35.03, 30.93, 31.37, 31.63, 33.0, 30.47, 32.57, 32.52, 45.45, 52.48, 44.72, 44.6, null, null, null, null, null, null], "label": "Max Reuter", "pointRadius": 1, "seriesRoles": "series-4", "spanGaps": true}, {"data": [34.0, 35.13, 36.97, 39.9, 33.33, 28.52, 27.35, 27.13, 20.43, 38.92, 36.97, 39.52, 33.57, 38.15, 36.88, null, null, null, null, null, null], "label": "David Fohl", "pointRadius": 1, "seriesRoles": "series-5", "spanGaps": true}], "labels": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]}, "options": {"maintainAspectRatio": false, "plugins": {"legend": {"display": true, "position": "bottom"}}, "responsive": true, "scales": {"x": {"title": {"display": true, "text": "Loop number"}}, "y": {"beginAtZero": true, "title": {"display": true, "text": "Rest banked (min)"}}}}, "type": "line"}};</script>
+<script src="../static/js/site.js"></script>
+</body>
+</html>

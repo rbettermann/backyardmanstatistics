@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lukas Lang · BACKYARDMAN Würzburg 2026</title>
+<meta name="description" content="Community-run statistics for BACKYARDMAN, the backyard-format triathlon.">
+<link rel="stylesheet" href="../../static/css/site.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">Backyardman Statistics</a>
+  <nav class="site-nav">
+    <a href="../../2026-backyardman/index.html" class="active">2026</a>
+  </nav>
+</header>
+<main>
+<a class="back-link" href="../index.html">&larr; Back to 2026 results</a>
+
+<div class="profile-card">
+  <div>
+    <h1>Lukas Lang <span class="subtitle">🇩🇪 DE</span></h1>
+    <dl class="info-table">
+      <dt>Status</dt><dd>DNF</dd>
+      <dt>Bib</dt><dd>52</dd>
+      <dt>Loops completed</dt><dd>7</dd>
+      <dt>Total distance</dt><dd>178.5 km</dd>
+      <dt>Swim</dt><dd>3.5 km (avg 10:13 / loop)</dd>
+      <dt>Bike</dt><dd>140.0 km (avg 46:18 / loop)</dd>
+      <dt>Run</dt><dd>35.0 km (avg 27:06 / loop)</dd>
+      <dt>Elapsed time</dt><dd>14:00:00</dd>
+      <dt>Time on course</dt><dd>11:23:41</dd>
+<dt>Rest banked</dt><dd>02:36:19</dd>      <dt>Fastest loop</dt><dd>87:59</dd>
+      <dt>Slowest loop</dt><dd>107:47</dd>
+    </dl>
+  </div>
+</div>
+
+<p><a href="../compare-athletes.html?a=52">Compare with another 2026 athlete &rarr;</a></p>
+
+<h2>Performance</h2>
+<div class="charts-grid athlete-charts-grid">
+  <div class="chart-card wide">
+  <h3>Loop time</h3>
+  <div class="chart-canvas-wrap"><canvas id="chart-loop-time"></canvas></div>
+</div>
+
+  <div class="chart-card wide">
+  <h3>Time per discipline, per loop</h3>
+  <div class="chart-canvas-wrap"><canvas id="chart-discipline-split"></canvas></div>
+</div>
+
+  
+  
+  
+  <div class="chart-card">
+  <h3>Rest per loop</h3>
+  <div class="chart-canvas-wrap"><canvas id="chart-rest"></canvas></div>
+</div>
+
+  
+</div>
+
+<h2>Loop-by-loop splits</h2>
+<table class="display data-table" data-dt-options='{"searching": false, "paging": false}'>
+  <thead>
+    <tr>
+      <th>Loop</th>
+      <th>Loop time</th>
+<th>Swim</th><th>T1</th><th>Bike</th><th>T2</th><th>Run</th><th>Rest</th>      <th>Cumulative distance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>87:59</td>
+<td>9:57</td><td>6:41</td><td>42:17</td><td>5:16</td><td>23:47</td><td>32:01</td>      <td>25.5 km</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>93:09</td>
+<td>10:06</td><td>7:02</td><td>45:06</td><td>3:19</td><td>27:34</td><td>26:51</td>      <td>51.0 km</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>93:55</td>
+<td>9:54</td><td>8:49</td><td>43:58</td><td>3:38</td><td>27:34</td><td>26:05</td>      <td>76.5 km</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>96:31</td>
+<td>9:58</td><td>8:58</td><td>43:55</td><td>7:04</td><td>26:35</td><td>23:29</td>      <td>102.0 km</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>99:04</td>
+<td>10:04</td><td>8:58</td><td>49:26</td><td>4:11</td><td>26:23</td><td>20:56</td>      <td>127.5 km</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>105:12</td>
+<td>10:48</td><td>12:00</td><td>49:27</td><td>5:52</td><td>27:03</td><td>14:48</td>      <td>153.0 km</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>107:47</td>
+<td>10:45</td><td>9:13</td><td>49:55</td><td>7:02</td><td>30:49</td><td>12:13</td>      <td>178.5 km</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>-</td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>      <td>-</td>
+    </tr>
+  </tbody>
+</table></main>
+<footer>Community-run statistics, not an official race result. Data scraped from public sources.</footer>
+<script>window.SITE_CHARTS = {"chart-discipline-split": {"data": {"datasets": [{"data": [9.95, 10.1, 9.9, 9.97, 10.07, 10.8, 10.75], "label": "Swim", "seriesRoles": "series-1"}, {"data": [6.68, 7.03, 8.82, 8.97, 8.97, 12.0, 9.22], "label": "T1", "seriesRoles": "muted"}, {"data": [42.28, 45.1, 43.97, 43.92, 49.43, 49.45, 49.92], "label": "Bike", "seriesRoles": "series-2"}, {"data": [5.27, 3.32, 3.63, 7.07, 4.18, 5.87, 7.03], "label": "T2", "seriesRoles": "muted"}, {"data": [23.78, 27.57, 27.57, 26.58, 26.38, 27.05, 30.82], "label": "Run", "seriesRoles": "series-3"}], "labels": [1, 2, 3, 4, 5, 6, 7]}, "options": {"maintainAspectRatio": false, "plugins": {"legend": {"display": true, "position": "bottom"}}, "responsive": true, "scales": {"x": {"stacked": true, "title": {"display": true, "text": "Loop number"}}, "y": {"beginAtZero": true, "stacked": true, "title": {"display": true, "text": "Time (min)"}}}}, "type": "bar"}, "chart-loop-time": {"data": {"datasets": [{"data": [87.98, 93.15, 93.92, 96.52, 99.07, 105.2, 107.78], "pointRadius": 2, "seriesRoles": "series-1"}], "labels": [1, 2, 3, 4, 5, 6, 7]}, "options": {"maintainAspectRatio": false, "plugins": {"legend": {"display": false}}, "responsive": true, "scales": {"x": {"title": {"display": true, "text": "Loop number"}}, "y": {"beginAtZero": true, "title": {"display": true, "text": "Loop time (min)"}}}}, "type": "line"}, "chart-rest": {"data": {"datasets": [{"data": [32.02, 26.85, 26.08, 23.48, 20.93, 14.8, 12.22], "seriesRoles": "series-1"}], "labels": [1, 2, 3, 4, 5, 6, 7]}, "options": {"maintainAspectRatio": false, "plugins": {"legend": {"display": false}}, "responsive": true, "scales": {"x": {"title": {"display": true, "text": "Loop number"}}, "y": {"beginAtZero": true, "title": {"display": true, "text": "Rest banked (min)"}}}}, "type": "bar"}};</script>
+<script src="../../static/js/site.js"></script>
+</body>
+</html>
